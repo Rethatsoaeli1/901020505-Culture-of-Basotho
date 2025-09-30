@@ -1,0 +1,41 @@
+.container{
+	background-color: lightblue;
+
+{
+
+.grid-container{
+	display: grid;
+	background-color: lightblue;
+
+}
+.image-container{
+	display: grid;
+	background-color: lightblue;
+
+}
+
+.page-orientation{
+	background-color: lightblue;
+}
+.box{
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+	box-sizing: content-box;
+	flex: 30px;
+	border: 1px solid white;
+}
+.flex-container{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 2px;
+	background-color: unset;
+	padding: 10px;
+	text-align: center;
+}
+
+
+
+
+
+
